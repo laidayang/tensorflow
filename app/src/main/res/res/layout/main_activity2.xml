@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_drawble">
+
+    <ImageView
+        android:id="@+id/launcher"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:src="@mipmap/pakeage" />
+    <TextView
+        android:text="慧眼智能结账系统"
+        android:textSize="20dp"
+        android:layout_below="@+id/launcher"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/bottom_data"
+        android:layout_alignParentBottom = "true"
+        android:gravity="center_horizontal"
+        android:text="2018  .  5  .  10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_data"
+        android:text="version:1.0" />
+</RelativeLayout>

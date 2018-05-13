@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.laiyang.tensorflow2.MainActivity"
+    android:background="@mipmap/second_activity">
+<LinearLayout
+    android:layout_marginTop="25dp"
+    android:id="@+id/first_layout"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#FF2573FA"
+    android:alpha="0.7"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/second_activity_home"
+        android:src="@mipmap/home"
+        android:layout_marginLeft="5dp"
+        android:layout_width="50dp"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="#FF085FF6"
+        android:layout_width="5dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textColor="#ffff"
+        android:text=" 慧眼智能结账系统"
+        android:textSize="29dp"
+        android:gravity="center_vertical"
+        android:layout_width="240dp"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="#FF085FF6"
+        android:layout_width="5dp"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/scanner"
+        android:src = "@mipmap/scanner"
+        android:layout_width="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+</LinearLayout>
